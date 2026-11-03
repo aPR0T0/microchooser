@@ -1,0 +1,1 @@
+{"partNumber":"LMR51430XDDCR","source":"kicad:Regulator_Switching:LMR51430@45efbd93","pins":[{"number":"1","name":"GND","type":"power_in"},{"number":"2","name":"SW","type":"power_out"},{"number":"3","name":"VIN","type":"power_in"},{"number":"4","name":"FB","type":"input"},{"number":"5","name":"EN","type":"input"},{"number":"6","name":"CB","type":"passive"}]}

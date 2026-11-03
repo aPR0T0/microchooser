@@ -1,0 +1,86 @@
+{
+  "partNumber": "VL53L8CXV9GC/1",
+  "source": "datasheet: https://www.st.com/resource/en/datasheet/vl53l8cx.pdf (DS14161 Rev 11, Table 3 pin description for I2C and SPI, page 7); pad numbers 1-16 = ST pads A1-A7, B1, B7, C1-C7 in that order; thermal pad B4 (GND) is the exposed pad, not listed",
+  "pins": [
+    {
+      "number": "1",
+      "name": "GPIO1/INT",
+      "type": "open_collector"
+    },
+    {
+      "number": "2",
+      "name": "LPn",
+      "type": "input"
+    },
+    {
+      "number": "3",
+      "name": "IOVDD",
+      "type": "power_in"
+    },
+    {
+      "number": "4",
+      "name": "SDA/MOSI",
+      "type": "bidirectional"
+    },
+    {
+      "number": "5",
+      "name": "SCL/MCLK",
+      "type": "input"
+    },
+    {
+      "number": "6",
+      "name": "RSVD1",
+      "type": "passive"
+    },
+    {
+      "number": "7",
+      "name": "RSVD2",
+      "type": "passive"
+    },
+    {
+      "number": "8",
+      "name": "GPIO2/SYNC",
+      "type": "bidirectional"
+    },
+    {
+      "number": "9",
+      "name": "CORE_1V8",
+      "type": "power_in"
+    },
+    {
+      "number": "10",
+      "name": "SPI_I2C_N",
+      "type": "input"
+    },
+    {
+      "number": "11",
+      "name": "NCS",
+      "type": "input"
+    },
+    {
+      "number": "12",
+      "name": "GND",
+      "type": "power_in"
+    },
+    {
+      "number": "13",
+      "name": "AVDD",
+      "type": "power_in"
+    },
+    {
+      "number": "14",
+      "name": "MISO",
+      "type": "output"
+    },
+    {
+      "number": "15",
+      "name": "RSVD3",
+      "type": "passive"
+    },
+    {
+      "number": "16",
+      "name": "GND",
+      "type": "power_in"
+    }
+  ]
+}

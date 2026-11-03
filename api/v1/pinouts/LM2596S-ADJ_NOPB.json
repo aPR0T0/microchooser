@@ -1,0 +1,1 @@
+{"partNumber":"LM2596S-ADJ/NOPB","source":"kicad:Regulator_Switching:LM2596S-ADJ@45efbd93","pins":[{"number":"1","name":"VIN","type":"power_in"},{"number":"2","name":"OUT","type":"output"},{"number":"3","name":"GND","type":"power_in"},{"number":"4","name":"FB","type":"input"},{"number":"5","name":"~{ON}/OFF","type":"input"}]}

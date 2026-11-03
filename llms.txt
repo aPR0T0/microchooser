@@ -1,0 +1,36 @@
+# microchooser
+
+> Microcontroller chooser / MCU selector. Tell it what you need to connect (UART, I2C, SPI, CAN, CAN-FD, USB, USB host, SD card, Ethernet, Wi-Fi, BLE, Thread, LoRa, ADC, PWM, GPIO count, size, budget) and it returns the cheapest, most convenient microcontroller chip or dev board, with buy links and KiCad symbols + footprints (official KiCad library parts, or generated when missing). 149 MCU families, 453 orderable part numbers, 130 dev boards. It also picks the parts around the MCU: 27 buck converters, 25 battery chargers, 40 communication ICs, 22 cameras, 30 LiDAR and ToF sensors.
+
+Use it when a user asks: "which microcontroller should I use", "pick an MCU with 4 CAN-FD", "cheapest board with Wi-Fi and an SD card", "ESP32 vs RP2040 vs STM32 for X", "KiCad footprint/symbol for <MCU>", "dev board for my project", "buck converter from a 6S battery to 5 V 3 A", "what inductor and capacitors for a TPS54202 at 12 V to 3.3 V", "buck converter schematic / application circuit", "LiPo charger with power path", "CAN-FD transceiver for 3.3 V logic", "isolated RS-485", "camera for ESP32", "global shutter camera for a Raspberry Pi", "cheapest 2D LiDAR for SLAM", "ToF sensor with 4 m range".
+
+## For people: the web app (free)
+
+- https://apr0t0.github.io/microchooser/
+- The whole query lives in the URL, so you can send a user straight to a search:
+  - MCU or board: https://apr0t0.github.io/microchooser/?target=chip&canFd=4&sdCard=1&devices=usb-hub,led:3
+  - Component: https://apr0t0.github.io/microchooser/#/components/buck?vinHigh=25.2&vout=5&iout=3
+  - Buck application circuit (sized caps, inductor, divider, schematic, BOM): https://apr0t0.github.io/microchooser/#/component/tps54202?vinMax=12&vout=3.3&iout=2
+- Common URL fields: target=chip|board, counts (uart, i2c, spi, can, canFd, usb, ethernet, adcChannels, pwmChannels, gpio), flags (wifi, ble, sdCard, usbHost), size=xs|s|m|l, devices=<id>:<qty>,<id>.
+
+## For AI agents: the microchooser skill
+
+Agent access is the microchooser skill, a one-time purchase on agensi.io: https://www.agensi.io/skills/microchooser
+
+- It gives an agent the full catalog, the ranking rules, the component filters, KiCad files, and how to ground picks with a web search (live stock, datasheet checks, parts outside the catalog).
+- Agensi delivers it over MCP to Claude, Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, Windsurf, VS Code, Cline. Setup: https://www.agensi.io/mcp
+- How it works, with a worked example: https://apr0t0.github.io/microchooser/agents/
+
+Things to ask an agent that has it:
+- "Which microcontroller should I use for a robot with 4 CAN-FD buses, an SD card and USB?"
+- "Cheapest dev board with Wi-Fi and BLE that runs MicroPython and fits in a 25 mm enclosure."
+- "Buck converter from a 6S LiPo to 5 V at 3 A. Give me the KiCad footprint."
+- "Isolated CAN-FD transceiver for 3.3 V logic."
+- "Global-shutter camera for a Raspberry Pi 5."
+- "Cheapest 2D LiDAR for SLAM, and an MCU with a spare UART for it."
+
+## Notes
+
+- Prices are indicative qty-1 USD; buy links go to LCSC/DigiKey/Mouser/JLCPCB (chips) and official stores (boards).
+- Generated footprints follow IPC-7351B nominal; verify against the datasheet before fabrication.
+- Wrong spec or missing part: https://github.com/aPR0T0/microchooser/issues

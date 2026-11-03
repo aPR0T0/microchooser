@@ -1,0 +1,225 @@
+{
+ "partNumber": "R7FA4E2B93CNH",
+ "source": "datasheet: https://www.renesas.com/en/document/dst/ra4e2-group-datasheet (RA4E2 Group Datasheet R01DS0413EJ0150 Rev.1.50, section 1.7 Pin Lists, Table 1.15, PDF pages 15-16)",
+ "pins": [
+  {
+   "number": "1",
+   "name": "P000",
+   "type": "bidirectional"
+  },
+  {
+   "number": "2",
+   "name": "VCL",
+   "type": "power_out"
+  },
+  {
+   "number": "3",
+   "name": "XCIN",
+   "type": "passive"
+  },
+  {
+   "number": "4",
+   "name": "VSS",
+   "type": "power_in"
+  },
+  {
+   "number": "5",
+   "name": "P213",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "XTAL",
+     "type": "passive"
+    }
+   ]
+  },
+  {
+   "number": "6",
+   "name": "P212",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "EXTAL",
+     "type": "passive"
+    }
+   ]
+  },
+  {
+   "number": "7",
+   "name": "VCC",
+   "type": "power_in"
+  },
+  {
+   "number": "8",
+   "name": "P407",
+   "type": "bidirectional"
+  },
+  {
+   "number": "9",
+   "name": "P207",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "CACREF",
+     "type": "input"
+    }
+   ]
+  },
+  {
+   "number": "10",
+   "name": "P206",
+   "type": "bidirectional"
+  },
+  {
+   "number": "11",
+   "name": "RES",
+   "type": "input"
+  },
+  {
+   "number": "12",
+   "name": "P201",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "MD",
+     "type": "input"
+    }
+   ]
+  },
+  {
+   "number": "13",
+   "name": "P200",
+   "type": "bidirectional"
+  },
+  {
+   "number": "14",
+   "name": "P302",
+   "type": "bidirectional"
+  },
+  {
+   "number": "15",
+   "name": "P301",
+   "type": "bidirectional"
+  },
+  {
+   "number": "16",
+   "name": "P300",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "SWCLK",
+     "type": "input"
+    }
+   ]
+  },
+  {
+   "number": "17",
+   "name": "P108",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "SWDIO",
+     "type": "bidirectional"
+    }
+   ]
+  },
+  {
+   "number": "18",
+   "name": "P109",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "CLKOUT",
+     "type": "output"
+    }
+   ]
+  },
+  {
+   "number": "19",
+   "name": "P110",
+   "type": "bidirectional"
+  },
+  {
+   "number": "20",
+   "name": "VCC",
+   "type": "power_in"
+  },
+  {
+   "number": "21",
+   "name": "VSS",
+   "type": "power_in"
+  },
+  {
+   "number": "22",
+   "name": "P102",
+   "type": "bidirectional"
+  },
+  {
+   "number": "23",
+   "name": "P101",
+   "type": "bidirectional"
+  },
+  {
+   "number": "24",
+   "name": "P100",
+   "type": "bidirectional"
+  },
+  {
+   "number": "25",
+   "name": "P014",
+   "type": "bidirectional"
+  },
+  {
+   "number": "26",
+   "name": "P003",
+   "type": "bidirectional"
+  },
+  {
+   "number": "27",
+   "name": "AVCC0",
+   "type": "power_in",
+   "alternates": [
+    {
+     "name": "VREFH",
+     "type": "power_in"
+    }
+   ]
+  },
+  {
+   "number": "28",
+   "name": "AVSS0",
+   "type": "power_in",
+   "alternates": [
+    {
+     "name": "VREFL",
+     "type": "power_in"
+    }
+   ]
+  },
+  {
+   "number": "29",
+   "name": "VREFL0",
+   "type": "power_in"
+  },
+  {
+   "number": "30",
+   "name": "VREFH0",
+   "type": "power_in"
+  },
+  {
+   "number": "31",
+   "name": "P002",
+   "type": "bidirectional"
+  },
+  {
+   "number": "32",
+   "name": "P001",
+   "type": "bidirectional"
+  },
+  {
+   "number": "33",
+   "name": "VSS",
+   "type": "power_in"
+  }
+ ]
+}

@@ -1,0 +1,624 @@
+{
+ "partNumber": "R7FA8M1AHECFP",
+ "source": "datasheet: https://www.renesas.com/en/document/dst/ra8m1-group-datasheet (RA8M1 Group Datasheet R01DS0417EJ0140 Rev.1.40, section 1.7 Pin Lists, PDF pages 23-28)",
+ "pins": [
+  {
+   "number": "1",
+   "name": "P400",
+   "type": "bidirectional"
+  },
+  {
+   "number": "2",
+   "name": "P401",
+   "type": "bidirectional"
+  },
+  {
+   "number": "3",
+   "name": "P402",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "CACREF",
+     "type": "input"
+    }
+   ]
+  },
+  {
+   "number": "4",
+   "name": "P403",
+   "type": "bidirectional"
+  },
+  {
+   "number": "5",
+   "name": "P404",
+   "type": "bidirectional"
+  },
+  {
+   "number": "6",
+   "name": "P405",
+   "type": "bidirectional"
+  },
+  {
+   "number": "7",
+   "name": "P406",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "EXCIN",
+     "type": "input"
+    }
+   ]
+  },
+  {
+   "number": "8",
+   "name": "VBATT",
+   "type": "power_in"
+  },
+  {
+   "number": "9",
+   "name": "VCL",
+   "type": "power_out"
+  },
+  {
+   "number": "10",
+   "name": "XCIN",
+   "type": "passive"
+  },
+  {
+   "number": "11",
+   "name": "XCOUT",
+   "type": "passive"
+  },
+  {
+   "number": "12",
+   "name": "VSS",
+   "type": "power_in"
+  },
+  {
+   "number": "13",
+   "name": "P213",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "XTAL",
+     "type": "passive"
+    }
+   ]
+  },
+  {
+   "number": "14",
+   "name": "P212",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "EXTAL",
+     "type": "passive"
+    }
+   ]
+  },
+  {
+   "number": "15",
+   "name": "VCC",
+   "type": "power_in"
+  },
+  {
+   "number": "16",
+   "name": "P708",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "CACREF",
+     "type": "input"
+    }
+   ]
+  },
+  {
+   "number": "17",
+   "name": "P415",
+   "type": "bidirectional"
+  },
+  {
+   "number": "18",
+   "name": "P414",
+   "type": "bidirectional"
+  },
+  {
+   "number": "19",
+   "name": "P413",
+   "type": "bidirectional"
+  },
+  {
+   "number": "20",
+   "name": "P412",
+   "type": "bidirectional"
+  },
+  {
+   "number": "21",
+   "name": "P411",
+   "type": "bidirectional"
+  },
+  {
+   "number": "22",
+   "name": "P410",
+   "type": "bidirectional"
+  },
+  {
+   "number": "23",
+   "name": "P409",
+   "type": "bidirectional"
+  },
+  {
+   "number": "24",
+   "name": "P408",
+   "type": "bidirectional"
+  },
+  {
+   "number": "25",
+   "name": "P407",
+   "type": "bidirectional"
+  },
+  {
+   "number": "26",
+   "name": "VSS_USB",
+   "type": "power_in"
+  },
+  {
+   "number": "27",
+   "name": "P815",
+   "type": "bidirectional"
+  },
+  {
+   "number": "28",
+   "name": "P814",
+   "type": "bidirectional"
+  },
+  {
+   "number": "29",
+   "name": "VCC_USB",
+   "type": "power_in"
+  },
+  {
+   "number": "30",
+   "name": "P206",
+   "type": "bidirectional"
+  },
+  {
+   "number": "31",
+   "name": "P205",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "CLKOUT",
+     "type": "output"
+    }
+   ]
+  },
+  {
+   "number": "32",
+   "name": "VCL",
+   "type": "power_out"
+  },
+  {
+   "number": "33",
+   "name": "P211",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "TCK",
+     "type": "input"
+    },
+    {
+     "name": "SWCLK",
+     "type": "input"
+    }
+   ]
+  },
+  {
+   "number": "34",
+   "name": "P210",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "TMS",
+     "type": "input"
+    },
+    {
+     "name": "SWDIO",
+     "type": "bidirectional"
+    }
+   ]
+  },
+  {
+   "number": "35",
+   "name": "P209",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "TDO",
+     "type": "output"
+    },
+    {
+     "name": "SWO",
+     "type": "output"
+    },
+    {
+     "name": "CLKOUT",
+     "type": "output"
+    }
+   ]
+  },
+  {
+   "number": "36",
+   "name": "P208",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "TDI",
+     "type": "input"
+    }
+   ]
+  },
+  {
+   "number": "37",
+   "name": "RES",
+   "type": "input"
+  },
+  {
+   "number": "38",
+   "name": "P201",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "MD",
+     "type": "input"
+    }
+   ]
+  },
+  {
+   "number": "39",
+   "name": "P200",
+   "type": "bidirectional"
+  },
+  {
+   "number": "40",
+   "name": "P308",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "TCLK",
+     "type": "output"
+    }
+   ]
+  },
+  {
+   "number": "41",
+   "name": "P307",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "TDATA0",
+     "type": "output"
+    }
+   ]
+  },
+  {
+   "number": "42",
+   "name": "P306",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "TDATA1",
+     "type": "output"
+    }
+   ]
+  },
+  {
+   "number": "43",
+   "name": "P305",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "TDATA2",
+     "type": "output"
+    }
+   ]
+  },
+  {
+   "number": "44",
+   "name": "P304",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "TDATA3",
+     "type": "output"
+    }
+   ]
+  },
+  {
+   "number": "45",
+   "name": "VSS",
+   "type": "power_in"
+  },
+  {
+   "number": "46",
+   "name": "VCC",
+   "type": "power_in"
+  },
+  {
+   "number": "47",
+   "name": "P303",
+   "type": "bidirectional"
+  },
+  {
+   "number": "48",
+   "name": "P302",
+   "type": "bidirectional"
+  },
+  {
+   "number": "49",
+   "name": "P301",
+   "type": "bidirectional"
+  },
+  {
+   "number": "50",
+   "name": "P300",
+   "type": "bidirectional"
+  },
+  {
+   "number": "51",
+   "name": "P112",
+   "type": "bidirectional"
+  },
+  {
+   "number": "52",
+   "name": "P113",
+   "type": "bidirectional"
+  },
+  {
+   "number": "53",
+   "name": "P114",
+   "type": "bidirectional"
+  },
+  {
+   "number": "54",
+   "name": "P115",
+   "type": "bidirectional"
+  },
+  {
+   "number": "55",
+   "name": "P609",
+   "type": "bidirectional"
+  },
+  {
+   "number": "56",
+   "name": "P610",
+   "type": "bidirectional"
+  },
+  {
+   "number": "57",
+   "name": "VSS",
+   "type": "power_in"
+  },
+  {
+   "number": "58",
+   "name": "VCC",
+   "type": "power_in"
+  },
+  {
+   "number": "59",
+   "name": "VCL",
+   "type": "power_out"
+  },
+  {
+   "number": "60",
+   "name": "VCC_DCDC",
+   "type": "power_in"
+  },
+  {
+   "number": "61",
+   "name": "VCC_DCDC",
+   "type": "power_in"
+  },
+  {
+   "number": "62",
+   "name": "VLO",
+   "type": "passive"
+  },
+  {
+   "number": "63",
+   "name": "VLO",
+   "type": "passive"
+  },
+  {
+   "number": "64",
+   "name": "VSS_DCDC",
+   "type": "power_in"
+  },
+  {
+   "number": "65",
+   "name": "P600",
+   "type": "bidirectional",
+   "alternates": [
+    {
+     "name": "CACREF",
+     "type": "input"
+    }
+   ]
+  },
+  {
+   "number": "66",
+   "name": "P107",
+   "type": "bidirectional"
+  },
+  {
+   "number": "67",
+   "name": "P106",
+   "type": "bidirectional"
+  },
+  {
+   "number": "68",
+   "name": "P105",
+   "type": "bidirectional"
+  },
+  {
+   "number": "69",
+   "name": "P104",
+   "type": "bidirectional"
+  },
+  {
+   "number": "70",
+   "name": "P103",
+   "type": "bidirectional"
+  },
+  {
+   "number": "71",
+   "name": "P102",
+   "type": "bidirectional"
+  },
+  {
+   "number": "72",
+   "name": "P101",
+   "type": "bidirectional"
+  },
+  {
+   "number": "73",
+   "name": "VCC2",
+   "type": "power_in"
+  },
+  {
+   "number": "74",
+   "name": "VSS",
+   "type": "power_in"
+  },
+  {
+   "number": "75",
+   "name": "P100",
+   "type": "bidirectional"
+  },
+  {
+   "number": "76",
+   "name": "P800",
+   "type": "bidirectional"
+  },
+  {
+   "number": "77",
+   "name": "P801",
+   "type": "bidirectional"
+  },
+  {
+   "number": "78",
+   "name": "P802",
+   "type": "bidirectional"
+  },
+  {
+   "number": "79",
+   "name": "P803",
+   "type": "bidirectional"
+  },
+  {
+   "number": "80",
+   "name": "P804",
+   "type": "bidirectional"
+  },
+  {
+   "number": "81",
+   "name": "P808",
+   "type": "bidirectional"
+  },
+  {
+   "number": "82",
+   "name": "P809",
+   "type": "bidirectional"
+  },
+  {
+   "number": "83",
+   "name": "VCL",
+   "type": "power_out"
+  },
+  {
+   "number": "84",
+   "name": "P015",
+   "type": "bidirectional"
+  },
+  {
+   "number": "85",
+   "name": "P014",
+   "type": "bidirectional"
+  },
+  {
+   "number": "86",
+   "name": "VREFL",
+   "type": "power_in"
+  },
+  {
+   "number": "87",
+   "name": "VREFH",
+   "type": "power_in"
+  },
+  {
+   "number": "88",
+   "name": "AVCC0",
+   "type": "power_in"
+  },
+  {
+   "number": "89",
+   "name": "AVSS0",
+   "type": "power_in"
+  },
+  {
+   "number": "90",
+   "name": "VREFL0",
+   "type": "power_in"
+  },
+  {
+   "number": "91",
+   "name": "VREFH0",
+   "type": "power_in"
+  },
+  {
+   "number": "92",
+   "name": "P008",
+   "type": "bidirectional"
+  },
+  {
+   "number": "93",
+   "name": "P007",
+   "type": "bidirectional"
+  },
+  {
+   "number": "94",
+   "name": "P006",
+   "type": "bidirectional"
+  },
+  {
+   "number": "95",
+   "name": "P005",
+   "type": "bidirectional"
+  },
+  {
+   "number": "96",
+   "name": "P004",
+   "type": "bidirectional"
+  },
+  {
+   "number": "97",
+   "name": "P003",
+   "type": "bidirectional"
+  },
+  {
+   "number": "98",
+   "name": "P002",
+   "type": "bidirectional"
+  },
+  {
+   "number": "99",
+   "name": "P001",
+   "type": "bidirectional"
+  },
+  {
+   "number": "100",
+   "name": "P000",
+   "type": "bidirectional"
+  }
+ ]
+}

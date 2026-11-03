@@ -1,0 +1,1 @@
+{"partNumber":"MCP73831T-2ACI/OT","source":"kicad:Battery_Management:MCP73831-2-OT@45efbd93","pins":[{"number":"1","name":"STAT","type":"tri_state"},{"number":"2","name":"V_{SS}","type":"power_in"},{"number":"3","name":"V_{BAT}","type":"power_out"},{"number":"4","name":"V_{DD}","type":"power_in"},{"number":"5","name":"PROG","type":"input"}]}

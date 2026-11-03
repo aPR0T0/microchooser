@@ -1,0 +1,1 @@
+{"partNumber":"AP62300Z6-7","source":"kicad:Regulator_Switching:AP62300Z6@45efbd93","pins":[{"number":"1","name":"VIN","type":"power_in"},{"number":"2","name":"SW","type":"output"},{"number":"3","name":"GND","type":"power_in"},{"number":"4","name":"BST","type":"passive"},{"number":"5","name":"EN","type":"input"},{"number":"6","name":"FB","type":"input"}]}
